@@ -3,6 +3,7 @@ class Negociacao{
         this._data = new Date(data);
         this._quantidade = quantidade;
         this._valor = valor;
+        //garante a imutalidade do objeto
         Object.freeze(this);
     };
     
